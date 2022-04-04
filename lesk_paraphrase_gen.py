@@ -26,7 +26,7 @@ for i in range(len(array)):
         f1.write("</number> ")
         f1.write("<text>")
         sent = array[i].split("\n")
-        print(sent)
+        #print(sent)
 
         for i in sent:
             # Word tokenizers is used to find the words
@@ -42,28 +42,18 @@ for i in range(len(array)):
 
         for ws in wordsList:
             count = 0
+            f1.write(ws+' ')
             for ss in [n for synset in wn.synsets(ws) for n in synset.lemma_names()]:
                 if (ss.lower() != ws.lower()):
                     if (count < 1):
+                        f1.write(ss.translate(translator) + ' ')
                         list.append(ss)
                         count = 1
 
-            for ss in list:
-                if (lesk(wordsList, ws) is None):  # if no synonym then put space
-                    f1.write(ws + ' ')
-                else:
-                    f1.write(ws + '  ' + ss + '  ')  # deletes punctuation from LESK result and puts space instead
 
         f1.write("</text></query>\n")
-print(list)
+        #print(wordsList)
+#print(list)
+
 f1.write("</parameters>")
 f1.close()
-
-
-
-
-
-
-
-
-
