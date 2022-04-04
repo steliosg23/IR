@@ -2,25 +2,27 @@ from nltk.wsd import lesk
 import re
 from nltk.corpus import stopwords
 import string
-#from nltk.corpus import stopwords
+# from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize, sent_tokenize
 import nltk
+from nltk.corpus import wordnet as wn
 from nltk import pos_tag
 
-
 stop_words = set(stopwords.words('english'))
-file = open('title+desc.EXAMPLE','r').read()
-array = re.split('<text>|</text>',file)
-f1=open("para_title+desc.EXAMPLE","w")
-translator = str.maketrans(string.punctuation, ' '*len(string.punctuation))#how to delete punctuation and put space instead
-f1.write("<parameters>\n<index>/home/stelios/Desktop/IR-2019-2020-Project-1/indices/example</index>\n<rule>method:dirichlet,mu:1000</rule>\n<count>1000</count>\n<trecFormat>true</trecFormat>\n")
-k=301
+file = open('title+desc.EXAMPLE', 'r').read()
+array = re.split('<text>|</text>', file)
+f1 = open("para_title+desc.EXAMPLE", "w")
+translator = str.maketrans(string.punctuation,
+                           ' ' * len(string.punctuation))  # how to delete punctuation and put space instead
+f1.write(
+    "<parameters>\n<index>/home/stelios/Desktop/IR-2019-2020-Project-1/indices/example</index>\n<rule>method:dirichlet,mu:1000</rule>\n<count>1000</count>\n<trecFormat>true</trecFormat>\n")
+k = 301
 for i in range(len(array)):
 
     if (i % 2 == 1):
         f1.write("<query><type>indri</type><number>")
         f1.write(str(k))
-        k=k+1
+        k = k + 1
         f1.write("</number> ")
         f1.write("<text>")
         sent = array[i].split("\n")
@@ -32,17 +34,28 @@ for i in range(len(array)):
             wordsList = nltk.word_tokenize(i)
 
             # removing stop words from wordList
-            #wordsList = [w for w in wordsList if not w in stop_words] #delete stop words for better metrics
+            wordsList = [w for w in wordsList if not w in stop_words] #delete stop words for better metrics
 
-            tagged = nltk.pos_tag(wordsList)
-            print(wordsList)
-        for w in wordsList :
+            synsets = [lesk(sent, w) for w in wordsList]
+            # print(synsets)
+            list = []
 
-                if (lesk(wordsList,w) is None ):  # if no synonym then put space
-                    f1.write(w + ' ')
+        for ws in wordsList:
+            count = 0
+            for ss in [n for synset in wn.synsets(ws) for n in synset.lemma_names()]:
+                if (ss.lower() != ws.lower()):
+                    if (count < 1):
+                        list.append(ss)
+                        count = 1
+
+            for ss in list:
+                if (lesk(wordsList, ws) is None):  # if no synonym then put space
+                    f1.write(ws + ' ')
                 else:
-                    f1.write(w + '  ' + lesk(wordsList,w).name().rsplit(".")[0].translate(translator) + '  ') # deletes punctuation from LESK result and puts space instead
+                    f1.write(ws + '  ' + ss + '  ')  # deletes punctuation from LESK result and puts space instead
+
         f1.write("</text></query>\n")
+print(list)
 f1.write("</parameters>")
 f1.close()
 
@@ -53,4 +66,4 @@ f1.close()
 
 
 
- 
+
