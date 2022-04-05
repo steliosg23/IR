@@ -9,13 +9,13 @@ from nltk.corpus import wordnet as wn
 from nltk import pos_tag
 
 stop_words = set(stopwords.words('english'))
-file = open('title+desc.EXAMPLE', 'r').read()
+file = open('title.EXAMPLE', 'r').read()
 array = re.split('<text>|</text>', file)
-f1 = open("para_title+desc.EXAMPLE", "w")
+f1 = open("para_title.EXAMPLE", "w")
 translator = str.maketrans(string.punctuation,
                            ' ' * len(string.punctuation))  # how to delete punctuation and put space instead
 f1.write(
-    "<parameters>\n<index>/home/stelios/Desktop/IR-2019-2020-Project-1/indices/example</index>\n<rule>method:dirichlet,mu:1000</rule>\n<count>1000</count>\n<trecFormat>true</trecFormat>\n")
+    "<parameters>\n<index>/home/ster/Desktop/example</index>\n<rule>method:dirichlet,mu:1000</rule>\n<count>1000</count>\n<trecFormat>true</trecFormat>\n")
 k = 301
 for i in range(len(array)):
 
@@ -38,27 +38,20 @@ for i in range(len(array)):
 
             synsets = [lesk(sent, w) for w in wordsList]
             # print(synsets)
-            list = []
-
         for ws in wordsList:
-            count_ws = 0
             count_l = 0
             if (lesk(sent, ws) is not None):
                 c=wn.synset(lesk(sent, ws).name()).lemma_names()
                 #print(ws)
                 #print(c)
+                f1.write(ws+' ')    
                 for l in c:
-                    if(l.lower() == ws.lower()):
-                        if (count_ws < 1):
-                            f1.write(ws+' ')
-                            count_ws=1
-                    else:
-                        if (count_l < 1):
+                    if(l.lower() != ws.lower()):
+                       if (count_l < 1):
                             f1.write(l.translate(translator)+' ')
                             count_l=1
         f1.write("</text></query>\n")
         #print(wordsList)
-#print(list)
-
+        #print(list)
 f1.write("</parameters>")
 f1.close()
