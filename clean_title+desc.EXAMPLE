@@ -1,0 +1,156 @@
+<parameters>
+<index>/home/stelios/Desktop/IR-2019-2020-Project-1/indices/example</index>
+<rule>method:dirichlet,mu:1000</rule>
+<count>1000</count>
+<trecFormat>true</trecFormat>
+<query><type>indri</type><number>301</number> <text>International Organized Crime Identify organizations participate international criminal activity activity possible collaborating organizations </text></query>
+<query><type>indri</type><number>302</number> <text>Poliomyelitis Post Polio Is disease Poliomyelitis polio control world </text></query>
+<query><type>indri</type><number>303</number> <text>Hubble Telescope Achievements Identify positive accomplishments Hubble telescope since launched 1991 </text></query>
+<query><type>indri</type><number>304</number> <text>Endangered Species Mammals Compile list mammals considered endangered identify habitat possible specify threatens </text></query>
+<query><type>indri</type><number>305</number> <text>Most Dangerous Vehicles Which crashworthy least crashworthy passenger vehicles </text></query>
+<query><type>indri</type><number>306</number> <text>African Civilian Deaths How many civilian non combatants killed various civil wars Africa </text></query>
+<query><type>indri</type><number>307</number> <text>New Hydroelectric Projects Identify hydroelectric projects proposed construction country location Detailed description nature </text></query>
+<query><type>indri</type><number>308</number> <text>Implant Dentistry What advantages disadvantages tooth implants </text></query>
+<query><type>indri</type><number>309</number> <text>Rap Crime Evidence rap music negative effect young people </text></query>
+<query><type>indri</type><number>310</number> <text>Radio Waves Brain Cancer Evidence radio waves radio towers car phones affect brain </text></query>
+<query><type>indri</type><number>311</number> <text>Industrial Espionage Document discuss theft trade secrets along sources information trade journals business </text></query>
+<query><type>indri</type><number>312</number> <text>Hydroponics Document discuss science growing plants water substance soil </text></query>
+<query><type>indri</type><number>313</number> <text>Magnetic Levitation Maglev Commercial uses Magnetic Levitation </text></query>
+<query><type>indri</type><number>314</number> <text>Marine Vegetation Commercial harvesting marine vegetation algae seaweed kelp food drug purposes </text></query>
+<query><type>indri</type><number>315</number> <text>Unexplained Highway Accidents How many fatal highway accidents year resolved cause </text></query>
+<query><type>indri</type><number>316</number> <text>Polygamy Polyandry Polygyny A look roots prevalence polygamy world today </text></query>
+<query><type>indri</type><number>317</number> <text>Unsolicited Faxes Have regulations passed FCC banning junk facsimile fax If effective </text></query>
+<query><type>indri</type><number>318</number> <text>Best Retirement Country Aside United States country offers best living conditions quality life </text></query>
+<query><type>indri</type><number>319</number> <text>New Fuel Sources What research ongoing new fuel sources </text></query>
+<query><type>indri</type><number>320</number> <text>Undersea Fiber Optic Cable Fiber optic link around globe Flag world longest undersea </text></query>
+<query><type>indri</type><number>321</number> <text>Women Parliaments Pertinent documents reflect fact women continue poorly represented parliaments across world </text></query>
+<query><type>indri</type><number>322</number> <text>International Art Crime Isolate instances fraud embezzlement international art trade </text></query>
+<query><type>indri</type><number>323</number> <text>Literary Journalistic Plagiarism Find instances plagiarism literary journalistic worlds </text></query>
+<query><type>indri</type><number>324</number> <text>Argentine British Relations Define Argentine British international relations </text></query>
+<query><type>indri</type><number>325</number> <text>Cult Lifestyles Describe cult name identify cult members activities everyday life </text></query>
+<query><type>indri</type><number>326</number> <text>Ferry Sinkings Any report ferry sinking 100 people lost lives </text></query>
+<query><type>indri</type><number>327</number> <text>Modern Slavery Identify country city evidence human slavery practiced eighties nineties </text></query>
+<query><type>indri</type><number>328</number> <text>Pope Beatifications Identify individual beatified Pope </text></query>
+<query><type>indri</type><number>329</number> <text>Mexican Air Pollution Mexico City worst air pollution world Pertinent Documents would contain </text></query>
+<query><type>indri</type><number>330</number> <text>Iran Iraq Cooperation This query looking examples cooperation friendly ties Iran Iraq ways </text></query>
+<query><type>indri</type><number>331</number> <text>World Bank Criticism What criticisms made World Bank policies activities personnel </text></query>
+<query><type>indri</type><number>332</number> <text>Income Tax Evasion This query looking investigations targeted evaders U S income tax </text></query>
+<query><type>indri</type><number>333</number> <text>Antibiotics Bacteria Disease Determine reasons bacteria seems winning war antibiotics rendering antibiotics less </text></query>
+<query><type>indri</type><number>334</number> <text>Export Controls Cryptography Determine usefulness effectiveness continuing maintain export controls encryption software </text></query>
+<query><type>indri</type><number>335</number> <text>Adoptive Biological Parents Identify problems solutions problems arise relationships among biological parents adoptive </text></query>
+<query><type>indri</type><number>336</number> <text>Black Bear Attacks A relevant document would discuss frequency vicious black bear attacks </text></query>
+<query><type>indri</type><number>337</number> <text>Viral Hepatitis What research done viral hepatitis progress made treatment </text></query>
+<query><type>indri</type><number>338</number> <text>Risk Aspirin What adverse effects people experienced taking aspirin repeatedly </text></query>
+<query><type>indri</type><number>339</number> <text>Alzheimer Drug Treatment What drugs used treatment Alzheimer Disease successful </text></query>
+<query><type>indri</type><number>340</number> <text>Land Mine Ban Identify actions taken propel nations world toward treaty banning production </text></query>
+<query><type>indri</type><number>341</number> <text>Airport Security A relevant document would discuss effective government orders better scrutinize passengers </text></query>
+<query><type>indri</type><number>342</number> <text>Diplomatic Expulsion The end Cold War seems intensified economic competition started generate serious </text></query>
+<query><type>indri</type><number>343</number> <text>Police Deaths Identify instances civilian policeman killed either performance duty association occupation e </text></query>
+<query><type>indri</type><number>344</number> <text>Abuses E Mail The availability E mail many people job school affiliation allowed </text></query>
+<query><type>indri</type><number>345</number> <text>Overseas Tobacco Sales Health studies primarily U S caused reductions tobacco sales economic </text></query>
+<query><type>indri</type><number>346</number> <text>Educational Standards There long call standards U S education calls frequently citing superiority </text></query>
+<query><type>indri</type><number>347</number> <text>Wildlife Extinction The spotted owl episode America highlighted U S efforts prevent extinction </text></query>
+<query><type>indri</type><number>348</number> <text>Agoraphobia Is fear open public places Agoraphobia widespread disorder relatively unknown </text></query>
+<query><type>indri</type><number>349</number> <text>Metabolism Document discuss chemical reactions necessary keep living cells healthy producing energy </text></query>
+<query><type>indri</type><number>350</number> <text>Health Computer Terminals Is hazardous health individuals work computer terminals daily basis </text></query>
+<query><type>indri</type><number>351</number> <text>Falkland petroleum exploration What information available petroleum exploration South Atlantic near Falkland Islands </text></query>
+<query><type>indri</type><number>352</number> <text>British Chunnel impact What impact Chunnel British economy life style British </text></query>
+<query><type>indri</type><number>353</number> <text>Antarctica exploration Identify systematic explorations scientific investigations Antarctica current planned </text></query>
+<query><type>indri</type><number>354</number> <text>journalist risks Identify instances journalist put risk e g killed arrested taken hostage </text></query>
+<query><type>indri</type><number>355</number> <text>ocean remote sensing Identify documents discussing development application spaceborne ocean remote sensing </text></query>
+<query><type>indri</type><number>356</number> <text>postmenopausal estrogen Britain Identify documents discussing use estrogen postmenopausal women Britain </text></query>
+<query><type>indri</type><number>357</number> <text>territorial waters dispute Identify documents discussing international boundary disputes relevant 200 mile special </text></query>
+<query><type>indri</type><number>358</number> <text>blood alcohol fatalities What role blood alcohol level play automobile accident fatalities </text></query>
+<query><type>indri</type><number>359</number> <text>mutual fund predictors Are reliable consistent predictors mutual fund performance </text></query>
+<query><type>indri</type><number>360</number> <text>drug legalization benefits What benefits drug legalization </text></query>
+<query><type>indri</type><number>361</number> <text>clothing sweatshops Identify documents discuss clothing sweatshops </text></query>
+<query><type>indri</type><number>362</number> <text>human smuggling Identify incidents human smuggling </text></query>
+<query><type>indri</type><number>363</number> <text>transportation tunnel disasters What disasters occurred tunnels used transportation </text></query>
+<query><type>indri</type><number>364</number> <text>rabies Identify documents discussing cases rabies confirmed anything done </text></query>
+<query><type>indri</type><number>365</number> <text>El Nino What effects attributed El Nino </text></query>
+<query><type>indri</type><number>366</number> <text>commercial cyanide uses What industrial commercial uses cyanide derivatives </text></query>
+<query><type>indri</type><number>367</number> <text>piracy What modern instances old fashioned piracy boarding taking control boats </text></query>
+<query><type>indri</type><number>368</number> <text>vitro fertilization Identify documents discuss vitro fertilization </text></query>
+<query><type>indri</type><number>369</number> <text>anorexia nervosa bulimia What causes treatments anorexia nervosa bulimia </text></query>
+<query><type>indri</type><number>370</number> <text>food drug laws What laws dealing quality processing food beverages drugs </text></query>
+<query><type>indri</type><number>371</number> <text>health insurance holistic What extent health insurance coverage holistic non traditional medicine medical </text></query>
+<query><type>indri</type><number>372</number> <text>Native American casino Identify documents discuss growth Native American casino gambling </text></query>
+<query><type>indri</type><number>373</number> <text>encryption equipment export Identify documents discuss concerns United States regarding export encryption equipment </text></query>
+<query><type>indri</type><number>374</number> <text>Nobel prize winners Identify provide background information Nobel prize winners </text></query>
+<query><type>indri</type><number>375</number> <text>hydrogen energy What status research hydrogen feasible energy source </text></query>
+<query><type>indri</type><number>376</number> <text>World Court What types cases heard World Court International Court Justice </text></query>
+<query><type>indri</type><number>377</number> <text>cigar smoking Identify documents discuss renewed popularity cigar smoking </text></query>
+<query><type>indri</type><number>378</number> <text>euro opposition Identify documents discuss opposition introduction euro European currency </text></query>
+<query><type>indri</type><number>379</number> <text>mainstreaming Identify documents discuss mainstreaming children physical mental impairments </text></query>
+<query><type>indri</type><number>380</number> <text>obesity medical treatment Identify documents discuss medical treatment obesity </text></query>
+<query><type>indri</type><number>381</number> <text>alternative medicine What forms alternative medicine used treatment illnesses diseases successful </text></query>
+<query><type>indri</type><number>382</number> <text>hydrogen fuel automobiles Identify documents discuss use hydrogen fuel piston driven automobiles safe </text></query>
+<query><type>indri</type><number>383</number> <text>mental illness drugs Identify drugs used treatment mental illness </text></query>
+<query><type>indri</type><number>384</number> <text>space station moon Identify documents discuss building space station intent colonizing moon </text></query>
+<query><type>indri</type><number>385</number> <text>hybrid fuel cars Identify documents discuss current status hybrid automobile engines e cars </text></query>
+<query><type>indri</type><number>386</number> <text>teaching disabled children What methods currently utilized anticipated teaching disabled children </text></query>
+<query><type>indri</type><number>387</number> <text>radioactive waste Identify documents discuss effective safe ways permanently handle long lived radioactive </text></query>
+<query><type>indri</type><number>388</number> <text>organic soil enhancement Identify documents discuss use organic fertilizers composted sludge ash vegetable </text></query>
+<query><type>indri</type><number>389</number> <text>illegal technology transfer What specific entities accused illegal technology transfer selling products formulas </text></query>
+<query><type>indri</type><number>390</number> <text>orphan drugs Find documents discuss issues associated called orphan drugs drugs treat diseases </text></query>
+<query><type>indri</type><number>391</number> <text>R D drug prices Identify documents discuss impact cost research development R D </text></query>
+<query><type>indri</type><number>392</number> <text>robotics What applications robotics world today </text></query>
+<query><type>indri</type><number>393</number> <text>mercy killing Identify documents discuss mercy killings </text></query>
+<query><type>indri</type><number>394</number> <text>home schooling Identify documents discuss education children home home schooling </text></query>
+<query><type>indri</type><number>395</number> <text>tourism Provide examples successful attempts attract tourism means improve local economy </text></query>
+<query><type>indri</type><number>396</number> <text>sick building syndrome Identify documents discuss sick building syndrome building related illnesses </text></query>
+<query><type>indri</type><number>397</number> <text>automobile recalls Identify documents discuss reasons automobile recalls </text></query>
+<query><type>indri</type><number>398</number> <text>dismantling Europe arsenal Identify documents discuss European Conventional Arms Cut relates dismantling Europe </text></query>
+<query><type>indri</type><number>399</number> <text>oceanographic vessels Identify documents discuss activities equipment oceanographic vessels </text></query>
+<query><type>indri</type><number>400</number> <text>Amazon rain forest What measures taken local South American authorities preserve Amazon tropical </text></query>
+<query><type>indri</type><number>401</number> <text>foreign minorities Germany What language cultural differences impede integration foreign minorities Germany </text></query>
+<query><type>indri</type><number>402</number> <text>behavioral genetics What happening field behavioral genetics study relative influence genetic environmental factors </text></query>
+<query><type>indri</type><number>403</number> <text>osteoporosis Find information effects dietary intakes potassium magnesium fruits vegetables determinants bone mineral </text></query>
+<query><type>indri</type><number>404</number> <text>Ireland peace talks How often peace talks Ireland delayed disrupted result acts violence </text></query>
+<query><type>indri</type><number>405</number> <text>cosmic events What unexpected unexplained cosmic events celestial phenomena radiation supernova outbursts new </text></query>
+<query><type>indri</type><number>406</number> <text>Parkinson disease What done treat symptoms Parkinson disease keep patient functional long possible </text></query>
+<query><type>indri</type><number>407</number> <text>poaching wildlife preserves What impact poaching world various wildlife preserves </text></query>
+<query><type>indri</type><number>408</number> <text>tropical storms What tropical storms hurricanes typhoons caused significant property damage loss life </text></query>
+<query><type>indri</type><number>409</number> <text>legal Pan Am 103 What legal actions resulted destruction Pan Am Flight 103 </text></query>
+<query><type>indri</type><number>410</number> <text>Schengen agreement Who involved Schengen agreement eliminate border controls Western Europe hope accomplish </text></query>
+<query><type>indri</type><number>411</number> <text>salvaging shipwreck treasure Find information shipwreck salvaging recovery attempted recovery treasure sunken ships </text></query>
+<query><type>indri</type><number>412</number> <text>airport security What security measures effect proposed go effect airports </text></query>
+<query><type>indri</type><number>413</number> <text>steel production What new methods producing steel </text></query>
+<query><type>indri</type><number>414</number> <text>Cuba sugar exports How much sugar Cuba export countries import </text></query>
+<query><type>indri</type><number>415</number> <text>drugs Golden Triangle What known drug trafficking Golden Triangle area Burma Thailand Laos </text></query>
+<query><type>indri</type><number>416</number> <text>Three Gorges Project What status The Three Gorges Project </text></query>
+<query><type>indri</type><number>417</number> <text>creativity Find ways measuring creativity </text></query>
+<query><type>indri</type><number>418</number> <text>quilts income In ways quilts used generate income </text></query>
+<query><type>indri</type><number>419</number> <text>recycle automobile tires What new uses developed old automobile tires means tire recycling </text></query>
+<query><type>indri</type><number>420</number> <text>carbon monoxide poisoning How widespread carbon monoxide poisoning global scale </text></query>
+<query><type>indri</type><number>421</number> <text>industrial waste disposal How disposal industrial waste accomplished industrial management throughout world </text></query>
+<query><type>indri</type><number>422</number> <text>art stolen forged What incidents stolen forged art </text></query>
+<query><type>indri</type><number>423</number> <text>Milosevic Mirjana Markovic Find references Milosevic wife Mirjana Markovic </text></query>
+<query><type>indri</type><number>424</number> <text>suicides Give examples alleged suicides aroused suspicion death actually murder </text></query>
+<query><type>indri</type><number>425</number> <text>counterfeiting money What counterfeiting money done modern times </text></query>
+<query><type>indri</type><number>426</number> <text>law enforcement dogs Provide information use dogs worldwide law enforcement purposes </text></query>
+<query><type>indri</type><number>427</number> <text>UV damage eyes Find documents discuss damage ultraviolet UV light sun eyes </text></query>
+<query><type>indri</type><number>428</number> <text>declining birth rates Do countries U S China declining birth rate </text></query>
+<query><type>indri</type><number>429</number> <text>Legionnaires disease Identify outbreaks Legionnaires disease </text></query>
+<query><type>indri</type><number>430</number> <text>killer bee attacks Identify instances attacks humans Africanized killer bees </text></query>
+<query><type>indri</type><number>431</number> <text>robotic technology What latest developments robotic technology </text></query>
+<query><type>indri</type><number>432</number> <text>profiling motorists police Do police departments use profiling stop motorists </text></query>
+<query><type>indri</type><number>433</number> <text>Greek philosophy stoicism Is contemporary interest Greek philosophy stoicism </text></query>
+<query><type>indri</type><number>434</number> <text>Estonia economy What state economy Estonia </text></query>
+<query><type>indri</type><number>435</number> <text>curbing population growth What measures taken worldwide countries effective curbing population growth </text></query>
+<query><type>indri</type><number>436</number> <text>railway accidents What causes railway accidents throughout world </text></query>
+<query><type>indri</type><number>437</number> <text>deregulation gas electric What experience residential utility customers following deregulation gas electric </text></query>
+<query><type>indri</type><number>438</number> <text>tourism increase What countries experiencing increase tourism </text></query>
+<query><type>indri</type><number>439</number> <text>inventions scientific discoveries What new inventions scientific discoveries made </text></query>
+<query><type>indri</type><number>440</number> <text>child labor What steps taken governments corporations eliminate abuse child labor </text></query>
+<query><type>indri</type><number>441</number> <text>Lyme disease How prevent treat Lyme disease </text></query>
+<query><type>indri</type><number>442</number> <text>heroic acts Find accounts selfless heroic acts individuals small groups benefit others cause </text></query>
+<query><type>indri</type><number>443</number> <text>U S investment Africa What extent U S government private investment sub Saharan </text></query>
+<query><type>indri</type><number>444</number> <text>supercritical fluids What potential uses supercritical fluids environmental protection measure </text></query>
+<query><type>indri</type><number>445</number> <text>women clergy What countries besides United States considering approved women clergy persons </text></query>
+<query><type>indri</type><number>446</number> <text>tourists violence Where tourists likely subjected acts violence causing bodily harm death </text></query>
+<query><type>indri</type><number>447</number> <text>Stirling engine What new developments applications Stirling engine </text></query>
+<query><type>indri</type><number>448</number> <text>ship losses Identify instances weather main contributing factor loss ship sea </text></query>
+<query><type>indri</type><number>449</number> <text>antibiotics ineffectiveness What caused current ineffectiveness antibiotics infections prognosis new drugs </text></query>
+<query><type>indri</type><number>450</number> <text>King Hussein peace How significant figure years late Jordanian King Hussein furthering peace </text></query>
+</parameters>
